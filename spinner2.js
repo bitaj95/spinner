@@ -1,5 +1,3 @@
-process.stdout.write('hello from spinner1.js... \rheyyy\n');
-
 const ticks = ['|','/','-','|','\\','|','/','-','\\'];
 let time = 0;
 
@@ -10,3 +8,4 @@ for (const tick of ticks) {
   }, 100 + time)
   time += 200;
 }
+
